@@ -21,7 +21,7 @@ print(stop_words)
 
 
 filtered_sents=[]
-for w in tokenized_sents:
+for w in tokenized_sents:#is this wrong and should be tokenized_word?
     if w not in stop_words:
         filtered_sents.append(w)
 #print("Tokenized Sentence:",tokenized_sents)
