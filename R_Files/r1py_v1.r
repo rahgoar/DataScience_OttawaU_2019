@@ -17,6 +17,7 @@ print("Python DataFrame:")
 print(py_df)
 
 # Commented out IPython magic to ensure Python compatibility.
+# %load_ext rpy2.ipython
 # %%R -i py_df
 # # R code to manipulate the DataFrame (input from Python)
 # print("R DataFrame:")
